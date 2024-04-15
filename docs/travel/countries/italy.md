@@ -2,84 +2,26 @@
 
 This page demonstrates some of the built-in markdown extensions provided by VitePress.
 
-## Syntax Highlighting
+## Cities
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+- Cinque Terre
+    - Recommended by Adrian.
+- Florence
+    - Museum of Costume and Fashion Pasolini
+        - Pasolini was expressing something responsive, to the culture and to society, and there's this sense of fire and of course outrage in him.
+    - Santa Croche
+    - Gallery Uffizi
+- Pontedera
+- Livorno
+    - Casa Modigliani - via Roma 38
 
-**Input**
+## Food
+- Olive Oil
+- Pecorino Sheep Cheese - Tuscany is famous for it.
+- Pasta alforno (which is lasagne)
+- Niokki
+- Pici-Nudeln toscanii - handmade pasta.
+- Ribollita - local soup.
 
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
-
-**Output**
-
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-
-## Custom Containers
-
-**Input**
-
-```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+## Language
+- Come va? Come stai? - How is it going?
