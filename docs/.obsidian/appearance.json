@@ -1,0 +1,11 @@
+{
+  "accentColor": "",
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "custom",
+    "remove-tag-margin"
+  ],
+  "baseFontSize": 16,
+  "textFontFamily": "-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif",
+  "interfaceFontFamily": "Inter"
+}

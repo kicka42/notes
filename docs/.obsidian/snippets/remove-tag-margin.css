@@ -1,0 +1,11 @@
+/* Remove left margin for tags */
+.cm-s-obsidian .cm-hashtag, .cm-s-obsidian .cm-hashtag.cm-hashtag-begin {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+/* Adjust the padding for the whole line to ensure alignment */
+.cm-s-obsidian .CodeMirror-line {
+    padding-left: 0 !important;
+}
+

@@ -1,0 +1,24 @@
+/* Set the background color for the main body */
+body, .workspace, .workspace-split, .workspace-tab-container, .workspace-tabs, .workspace-leaf, .mod-root, .mod-root .view-header {
+    background-color: hsl(220, 7%, 13%) !important;
+}
+
+/* Set the background color for the sidebars */
+.side-dock, .side-dock .workspace-leaf, .side-dock .workspace-split, .side-dock .workspace-tab-container, .side-dock .workspace-tabs {
+    background-color: hsl(220, 7%, 13%) !important;
+}
+
+/* Set the background color for the notes */
+.markdown-preview-view, .markdown-preview-section, .markdown-source-view {
+    background-color: hsl(220, 7%, 13%) !important;
+}
+
+/* Set the background color for the settings modal */
+.modal-content {
+    background-color: hsl(220, 7%, 13%) !important;
+}
+
+/* Ensure text remains readable */
+body, .workspace, .markdown-preview-view, .markdown-preview-section, .markdown-source-view, .side-dock, .modal-content {
+    color: white !important;
+}

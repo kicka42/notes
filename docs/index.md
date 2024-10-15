@@ -1,6 +1,8 @@
 # Notes
 
-Here, I divulge all that I know, having established this space primarily for my own use. However, I also considered that you might find it equally beneficial.
+https://kicka.org/avatar1.png
+
+Here, I share all the stuff. I mostly put it together for myself, but I bet you’ll find something useful too. This page is always a work in progress.
 
 ## Syntax Highlighting
 

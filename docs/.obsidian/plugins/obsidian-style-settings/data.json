@@ -1,0 +1,13 @@
+{
+  "minimal-style@@h1-weight": 500,
+  "minimal-style@@h1-style": "normal",
+  "minimal-style@@h1-font": "Helvetica",
+  "minimal-style@@h1-size": "36px",
+  "minimal-style@@heading-spacing": "4em",
+  "minimal-style@@h2-weight": 600,
+  "minimal-style@@h6-weight": 400,
+  "minimal-style@@tx1@@light": "#E500BD00",
+  "minimal-style@@minimal-unstyled-tags": true,
+  "minimal-style@@tag-border-width": "0",
+  "minimal-style@@tag-color@@dark": "#4C6084"
+}
