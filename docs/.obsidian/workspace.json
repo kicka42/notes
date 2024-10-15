@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Resources/Profiles/Adrian Kicka.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Resources/Profiles/Adrian Kicka.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Resources/Profiles/Adrian Kicka.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Resources/Profiles/Adrian Kicka.md"
               }
             }
           }
@@ -147,10 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ffadc8ba263d5a9f",
+  "active": "12693affa765a86a",
   "lastOpenFiles": [
-    "Areas/Art/index.md",
+    "Resources/Profiles/DD.md",
+    "Resources/Profiles/Adrian Kicka.md",
     "index.md",
+    "Areas/Art/index.md",
     "Areas/Travel/index.md",
     "Areas/Travel/events/markdown-examples.md",
     "Areas/Travel/events/api-examples.md",
@@ -170,7 +172,6 @@
     "Core",
     "Resources/Games",
     "Resources/Paintings",
-    "Resources/Profiles/Adrian Kicka.md",
     "Diary",
     "Garden/Garden Overview.md",
     "Resources/Theater",
@@ -184,7 +185,6 @@
     "Diary/Friday, September 27th 2024.md",
     "Resources/Notes/Description.md",
     "Resources/Notes/Untitled 2.md",
-    "Resources/Notes/Untitled 3.md",
     "Pasted image 20240805212959.png",
     "Untitled.canvas",
     "Diaries/Untitled.canvas"

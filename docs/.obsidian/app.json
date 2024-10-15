@@ -5,5 +5,6 @@
   "readableLineLength": true,
   "showRibbon": false,
   "promptDelete": false,
-  "foldHeading": true
+  "foldHeading": true,
+  "alwaysUpdateLinks": true
 }
