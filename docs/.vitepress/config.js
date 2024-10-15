@@ -20,8 +20,8 @@ export default defineConfig({
       {
         items: [
           {
-            text: 'Travel',
-            link: '/travel/', // Link for the "Travel" main page
+            text: 'Area',
+            link: '/Area/', // Link for the "Travel" main page
             collapsible: true,
             items: [
               {
@@ -34,8 +34,8 @@ export default defineConfig({
                 ]
               },
               {
-                text: 'Events',
-                link: '/travel/events', // Link for the "Events" main page
+                text: 'Projects',
+                link: '/Projects', // Link for the "Events" main page
                 collapsible: true,
                 items: [
                   { text: 'Markdown Examples', link: '/travel/events/markdown-examples' },
