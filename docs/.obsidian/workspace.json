@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/Profiles/Adrian Kicka.md",
+                "file": "Areas/Art/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/Profiles/Adrian Kicka.md",
+                "file": "Areas/Art/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/Profiles/Adrian Kicka.md",
+                "file": "Areas/Art/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/Profiles/Adrian Kicka.md"
+                "file": "Areas/Art/index.md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "12693affa765a86a",
   "lastOpenFiles": [
-    "Resources/Profiles/DD.md",
     "Resources/Profiles/Adrian Kicka.md",
+    "Resources/Profiles/DD.md",
     "index.md",
     "Areas/Art/index.md",
     "Areas/Travel/index.md",
