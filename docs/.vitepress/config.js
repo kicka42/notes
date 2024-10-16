@@ -1,56 +1,34 @@
 import { defineConfig } from 'vitepress'
+import fs from 'fs'
+import path from 'path'
+import { fileURLToPath } from 'url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
+// Read the sidebar configuration
+const sidebar = JSON.parse(
+    fs.readFileSync(path.resolve(__dirname, 'sidebar.json'), 'utf-8')
+)
 
 export default defineConfig({
   title: "Notes",
   description: "Digital Garden",
   base: '/notes/',
+  publicDir: '../public', // Adjusted path
   cleanUrls: true, // Enables clean URLs by removing the .html extension
   themeConfig: {
-      search: {
-        provider: 'local'
-      },
+    sidebar: sidebar,
     /*
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
-     */
-
-    sidebar: [
-      {
-        items: [
-          {
-            text: 'Area',
-            link: '/Area/', // Link for the "Travel" main page
-            collapsible: true,
-            items: [
-              {
-                text: 'Countries',
-                link: '/travel/countries/', // Link for the "Countries" main page
-                collapsible: true,
-                items: [
-                  { text: 'Italy', link: '/travel/countries/italy' },
-                  { text: 'Poland', link: '/travel/countries/poland' }
-                ]
-              },
-              {
-                text: 'Projects',
-                link: '/Projects', // Link for the "Events" main page
-                collapsible: true,
-                items: [
-                  { text: 'Markdown Examples', link: '/travel/events/markdown-examples' },
-                  { text: 'Runtime API Examples', link: '/travel/events/api-examples' }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    */
 
     /*socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-     */
+    */
   }
 })

@@ -1,0 +1,206 @@
+[
+  {
+    "text": "Areas",
+    "collapsible": true,
+    "items": [
+      {
+        "text": "Art",
+        "collapsible": true,
+        "items": [
+          {
+            "text": "Installations",
+            "link": "/Areas/Art/Installations"
+          },
+          {
+            "text": "Music",
+            "link": "/Areas/Art/Music"
+          },
+          {
+            "text": "Performance",
+            "link": "/Areas/Art/Performance"
+          },
+          {
+            "text": "Techniques",
+            "link": "/Areas/Art/Techniques"
+          }
+        ]
+      },
+      {
+        "text": "Health",
+        "link": "/Areas/Health"
+      },
+      {
+        "text": "Travel",
+        "collapsible": true,
+        "items": [
+          {
+            "text": "Countries",
+            "collapsible": true,
+            "items": [
+              {
+                "text": "italy",
+                "link": "/Areas/Travel/Countries/italy"
+              },
+              {
+                "text": "poland",
+                "link": "/Areas/Travel/Countries/poland"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Work",
+        "collapsible": true,
+        "items": [
+          {
+            "text": "Career Goals",
+            "link": "/Areas/Work/Career Goals"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Core",
+    "collapsible": true,
+    "items": [
+      {
+        "text": "Direction",
+        "link": "/Core/Direction"
+      },
+      {
+        "text": "Principles",
+        "link": "/Core/Principles"
+      }
+    ]
+  },
+  {
+    "text": "Diary",
+    "collapsible": true,
+    "items": [
+      {
+        "text": "2024-06-13",
+        "link": "/Diary/2024-06-13"
+      },
+      {
+        "text": "2024-06-14",
+        "link": "/Diary/2024-06-14"
+      },
+      {
+        "text": "2024-06-15",
+        "link": "/Diary/2024-06-15"
+      },
+      {
+        "text": "2024-06-16",
+        "link": "/Diary/2024-06-16"
+      },
+      {
+        "text": "2024-06-17",
+        "link": "/Diary/2024-06-17"
+      },
+      {
+        "text": "2024-06-18",
+        "link": "/Diary/2024-06-18"
+      },
+      {
+        "text": "Aug 4th, 2024",
+        "link": "/Diary/Aug 4th, 2024"
+      },
+      {
+        "text": "Friday, August 16th 2024",
+        "link": "/Diary/Friday, August 16th 2024"
+      },
+      {
+        "text": "Friday, August 9th 2024",
+        "link": "/Diary/Friday, August 9th 2024"
+      },
+      {
+        "text": "Friday, September 27th 2024",
+        "link": "/Diary/Friday, September 27th 2024"
+      },
+      {
+        "text": "Monday, August 19th 2024",
+        "link": "/Diary/Monday, August 19th 2024"
+      },
+      {
+        "text": "Saturday, August 17th 2024",
+        "link": "/Diary/Saturday, August 17th 2024"
+      },
+      {
+        "text": "Thursday, August 15th 2024",
+        "link": "/Diary/Thursday, August 15th 2024"
+      },
+      {
+        "text": "Thursday, October 10th 2024",
+        "link": "/Diary/Thursday, October 10th 2024"
+      },
+      {
+        "text": "Tuesday, August 13th 2024",
+        "link": "/Diary/Tuesday, August 13th 2024"
+      },
+      {
+        "text": "Tuesday, October 15th 2024",
+        "link": "/Diary/Tuesday, October 15th 2024"
+      },
+      {
+        "text": "Tuesday, September 17th 2024",
+        "link": "/Diary/Tuesday, September 17th 2024"
+      },
+      {
+        "text": "Wednesday, September 18th 2024",
+        "link": "/Diary/Wednesday, September 18th 2024"
+      }
+    ]
+  },
+  {
+    "text": "Garden",
+    "collapsible": true,
+    "items": [
+      {
+        "text": "Garden Overview",
+        "link": "/Garden/Garden Overview"
+      }
+    ]
+  },
+  {
+    "text": "Resources",
+    "collapsible": true,
+    "items": [
+      {
+        "text": "Articles",
+        "collapsible": true,
+        "items": [
+          {
+            "text": "Index",
+            "link": "/Resources/Articles/Index"
+          }
+        ]
+      },
+      {
+        "text": "Notes",
+        "collapsible": true,
+        "items": [
+          {
+            "text": "Description",
+            "link": "/Resources/Notes/Description"
+          }
+        ]
+      },
+      {
+        "text": "Profiles",
+        "collapsible": true,
+        "items": [
+          {
+            "text": "Adrian Kicka",
+            "link": "/Resources/Profiles/Adrian Kicka"
+          },
+          {
+            "text": "DD",
+            "link": "/Resources/Profiles/DD"
+          }
+        ]
+      }
+    ]
+  }
+]

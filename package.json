@@ -7,9 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:dev": "npm run generate-sidebar && vitepress dev docs",
+    "docs:build": "npm run generate-sidebar && vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "generate-sidebar": "node generate-sidebar.js"
   },
   "devDependencies": {
     "vite": "^5.2.0",
