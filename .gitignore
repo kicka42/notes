@@ -26,3 +26,4 @@ dist-ssr
 # VitePress
 .vitepress/cache
 .vitepress/dist
+docs/Diary
