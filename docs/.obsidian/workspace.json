@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2024-06-13.md",
+                "file": "Diary/Wednesday, October 23rd 2024.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diary/2024-06-13.md",
+                "file": "Diary/Wednesday, October 23rd 2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diary/2024-06-13.md",
+                "file": "Diary/Wednesday, October 23rd 2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2024-06-13.md"
+                "file": "Diary/Wednesday, October 23rd 2024.md"
               }
             }
           }
@@ -149,6 +149,10 @@
   },
   "active": "12693affa765a86a",
   "lastOpenFiles": [
+    "Areas/Art/index.md",
+    "Diary/Wednesday, October 23rd 2024.md",
+    "Diary/Thursday, October 17th 2024.md",
+    "Diary/2024-06-13.md",
     "Diary/2024-06-14.md",
     "Diary/2024-06-15.md",
     "Diary/2024-06-16.md",
@@ -162,19 +166,15 @@
     "Diary/Saturday, August 17th 2024.md",
     "Diary/Thursday, August 15th 2024.md",
     "Diary/Thursday, October 10th 2024.md",
-    "Diary/Thursday, October 17th 2024.md",
     "Diary/Tuesday, August 13th 2024.md",
     "Diary/Tuesday, October 15th 2024.md",
     "Diary/Tuesday, September 17th 2024.md",
     "Diary/Wednesday, September 18th 2024.md",
     "index.md",
-    "Areas/Art/index.md",
     "Resources/Profiles/Adrian Kicka.md",
     "Resources/Profiles/DD.md",
     "Areas/Travel/index.md",
     "Areas/Travel/events/markdown-examples.md",
-    "Areas/Travel/events/api-examples.md",
-    "Untitled.md",
     "Areas/Art/Installations",
     "Areas/Art/Performance",
     "Core",
