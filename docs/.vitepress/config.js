@@ -35,17 +35,12 @@ function generateSidebar(dir) {
         const children = getItems(fullPath)
         
         if (hasIndex) {
-          // Create a group with the index page as first item
+          // Create a collapsible section that also acts as a link
           items.push({
             text: file,
+            link: `/${relativePath}/`,  // This makes the folder name link to index.md
             collapsed: true,
-            items: [
-              {
-                text: 'Overview', // or 'Index' or whatever text you prefer
-                link: `/${relativePath}/`
-              },
-              ...children // Spread the other files in the directory
-            ]
+            items: children.filter(item => item.text !== 'index') // Exclude index.md from children
           })
         } else if (children.length) {
           items.push({
