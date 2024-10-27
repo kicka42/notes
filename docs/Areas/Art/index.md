@@ -1,7 +1,3 @@
----
-layout: doc
----
-
 Favourite artists
 Stanisław Szukalski #Sculpture
 Roger Ballen #Photography
