@@ -1,6 +1,8 @@
 # Notes
 
-![Profile Avatar](https://kicka.org/avatar1.png)
+<p align="center">
+  <img src="https://kicka.org/avatar1.png" alt="Profile Avatar" width="80%">
+</p>
 
 Here, I share all the stuff. I mostly put it together for myself, but I bet you’ll find something useful too. This page is always a work in progress.
 
