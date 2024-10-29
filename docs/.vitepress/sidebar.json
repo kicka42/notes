@@ -16,6 +16,10 @@
             "link": "/Areas/Art/Music"
           },
           {
+            "text": "Paintings",
+            "link": "/Areas/Art/Paintings"
+          },
+          {
             "text": "Performance",
             "link": "/Areas/Art/Performance"
           },
@@ -140,6 +144,10 @@
         "link": "/Diary/Thursday, October 17th 2024"
       },
       {
+        "text": "Thursday, October 24th 2024",
+        "link": "/Diary/Thursday, October 24th 2024"
+      },
+      {
         "text": "Tuesday, August 13th 2024",
         "link": "/Diary/Tuesday, August 13th 2024"
       },
@@ -148,8 +156,16 @@
         "link": "/Diary/Tuesday, October 15th 2024"
       },
       {
+        "text": "Tuesday, October 29th 2024",
+        "link": "/Diary/Tuesday, October 29th 2024"
+      },
+      {
         "text": "Tuesday, September 17th 2024",
         "link": "/Diary/Tuesday, September 17th 2024"
+      },
+      {
+        "text": "Wednesday, October 23rd 2024",
+        "link": "/Diary/Wednesday, October 23rd 2024"
       },
       {
         "text": "Wednesday, September 18th 2024",
@@ -171,16 +187,6 @@
     "text": "Resources",
     "collapsible": true,
     "items": [
-      {
-        "text": "Articles",
-        "collapsible": true,
-        "items": [
-          {
-            "text": "Index",
-            "link": "/Resources/Articles/Index"
-          }
-        ]
-      },
       {
         "text": "Notes",
         "collapsible": true,
