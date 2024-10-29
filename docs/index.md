@@ -1,6 +1,6 @@
 # Notes
 
-https://kicka.org/avatar1.png
+![Profile Avatar](https://kicka.org/avatar1.png)
 
 Here, I share all the stuff. I mostly put it together for myself, but I bet you’ll find something useful too. This page is always a work in progress.
 
