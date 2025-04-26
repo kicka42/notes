@@ -13,7 +13,11 @@
     "generate-sidebar": "node generate-sidebar.js"
   },
   "devDependencies": {
+    "esbuild": "^0.25.0",
     "vite": "^5.2.0",
     "vitepress": "2.0.0-alpha.5"
+  },
+  "overrides": {
+    "esbuild": "^0.25.0"
   }
 }
