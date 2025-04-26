@@ -42,12 +42,26 @@
             "collapsible": true,
             "items": [
               {
+                "text": "france",
+                "link": "/Areas/Travel/Countries/france"
+              },
+              {
                 "text": "italy",
                 "link": "/Areas/Travel/Countries/italy"
               },
               {
                 "text": "poland",
                 "link": "/Areas/Travel/Countries/poland"
+              }
+            ]
+          },
+          {
+            "text": "Transport",
+            "collapsible": true,
+            "items": [
+              {
+                "text": "trains",
+                "link": "/Areas/Travel/Transport/trains"
               }
             ]
           }
@@ -120,6 +134,10 @@
         "link": "/Diary/Friday, August 9th 2024"
       },
       {
+        "text": "Friday, January 17th 2025",
+        "link": "/Diary/Friday, January 17th 2025"
+      },
+      {
         "text": "Friday, September 27th 2024",
         "link": "/Diary/Friday, September 27th 2024"
       },
@@ -128,12 +146,32 @@
         "link": "/Diary/Monday, August 19th 2024"
       },
       {
+        "text": "Saturday, April 26th 2025",
+        "link": "/Diary/Saturday, April 26th 2025"
+      },
+      {
         "text": "Saturday, August 17th 2024",
         "link": "/Diary/Saturday, August 17th 2024"
       },
       {
+        "text": "Sunday, February 9th 2025",
+        "link": "/Diary/Sunday, February 9th 2025"
+      },
+      {
+        "text": "Sunday, January 5th 2025",
+        "link": "/Diary/Sunday, January 5th 2025"
+      },
+      {
         "text": "Thursday, August 15th 2024",
         "link": "/Diary/Thursday, August 15th 2024"
+      },
+      {
+        "text": "Thursday, February 20th 2025",
+        "link": "/Diary/Thursday, February 20th 2025"
+      },
+      {
+        "text": "Thursday, January 2nd 2025",
+        "link": "/Diary/Thursday, January 2nd 2025"
       },
       {
         "text": "Thursday, October 10th 2024",
@@ -152,6 +190,10 @@
         "link": "/Diary/Tuesday, August 13th 2024"
       },
       {
+        "text": "Tuesday, December 3rd 2024",
+        "link": "/Diary/Tuesday, December 3rd 2024"
+      },
+      {
         "text": "Tuesday, October 15th 2024",
         "link": "/Diary/Tuesday, October 15th 2024"
       },
@@ -162,6 +204,14 @@
       {
         "text": "Tuesday, September 17th 2024",
         "link": "/Diary/Tuesday, September 17th 2024"
+      },
+      {
+        "text": "Wednesday, February 26th 2025",
+        "link": "/Diary/Wednesday, February 26th 2025"
+      },
+      {
+        "text": "Wednesday, November 6th 2024",
+        "link": "/Diary/Wednesday, November 6th 2024"
       },
       {
         "text": "Wednesday, October 23rd 2024",
@@ -198,16 +248,16 @@
         ]
       },
       {
-        "text": "Profiles",
+        "text": "People",
         "collapsible": true,
         "items": [
           {
             "text": "Adrian Kicka",
-            "link": "/Resources/Profiles/Adrian Kicka"
+            "link": "/Resources/People/Adrian Kicka"
           },
           {
             "text": "DD",
-            "link": "/Resources/Profiles/DD"
+            "link": "/Resources/People/DD"
           }
         ]
       }
