@@ -1,4 +1,4 @@
-Favourite artists xxxx
+Favourite artists
 Stanisław Szukalski #Sculpture
 Roger Ballen #Photography
 [Marta Nadolle](https://www.instagram.com/marta_nadolle/) #Paintings 
