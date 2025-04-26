@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/index.md",
+                "file": "Diary/Aug 4th, 2024.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Aug 4th, 2024"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,9 +181,13 @@
   },
   "active": "b840b3b0fb6f359f",
   "lastOpenFiles": [
-    "Resources/Articles/index.md",
+    "Diary/2024-06-13.md",
+    "Diary/Saturday, April 26th 2025.md",
+    "Untitled.md",
     "Diary/index.md",
     "Diary/Aug 4th, 2024.md",
+    "Diary/Untitled.md",
+    "Resources/Articles/index.md",
     "Diary/2024-06-14.md",
     "Diary/2024-06-15.md",
     "Diary/2024-06-16.md",
@@ -195,7 +199,6 @@
     "Diary/Friday, January 17th 2025.md",
     "Diary/Friday, September 27th 2024.md",
     "Diary/Monday, August 19th 2024.md",
-    "Diary/Saturday, April 26th 2025.md",
     "Diary/Saturday, August 17th 2024.md",
     "Diary/Sunday, February 9th 2025.md",
     "Diary/Sunday, January 5th 2025.md",
@@ -204,9 +207,6 @@
     "Diary/Thursday, January 2nd 2025.md",
     "Diary/Thursday, October 10th 2024.md",
     "Diary/Thursday, October 17th 2024.md",
-    "Diary/Thursday, October 24th 2024.md",
-    "Diary/Tuesday, August 13th 2024.md",
-    "Diary/Tuesday, December 3rd 2024.md",
     "Areas/Travel/Transport",
     "Areas/Art/Installations",
     "Areas/Art/Performance",
