@@ -86,6 +86,7 @@ export default defineConfig({
   base: "/notes/",
   publicDir: "../public",
   cleanUrls: true,
+  lastUpdated: true,
   themeConfig: {
     sidebar: finalSidebar,
     search: {
