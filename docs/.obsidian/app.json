@@ -5,5 +5,7 @@
   "readableLineLength": true,
   "promptDelete": false,
   "foldHeading": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheck": false,
+  "propertiesInDocument": "source"
 }

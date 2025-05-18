@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0b59004d4d9ecfe8",
+        "id": "2a1ab53f142c7e30",
         "type": "tabs",
         "children": [
           {
-            "id": "b840b3b0fb6f359f",
+            "id": "b550f3645d3c972d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/Monday, May 12th 2025.md",
+                "file": "Diary/May 12th 2025, Paris.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Monday, May 12th 2025"
+              "title": "May 12th 2025, Paris"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5,
-    "collapsed": true
+    "width": 242.5
   },
   "right": {
     "id": "1f51e02571ab50e2",
@@ -180,19 +179,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b840b3b0fb6f359f",
+  "active": "b550f3645d3c972d",
   "lastOpenFiles": [
-    "Moah.md",
-    "Diary/Monday, May 12th 2025.md",
-    "Diary/Sunday, May 11th 2025.md",
+    "Diary/index.md",
+    "Diary/May 12th 2025, Paris.md",
+    "Diary/May 13th 2025, Paris.md",
+    "Diary/May 14th 2025, Paris.md",
+    "Diary/May 15th 2025, Paris.md",
+    "Diary/May 16th 2025, Paris.md",
+    "Diary/May 17th 2025, Paris.md",
+    "Diary/May 18th 2025, Paris.md",
     "Diary/Wednesday, May 7th 2025.md",
     "Diary/Tuesday, April 29th 2025.md",
-    "Diary/Aug 4th, 2024.md",
-    "Diary/2024-06-13.md",
+    "Diary/Sunday, May 11th 2025.md",
     "Diary/Saturday, April 26th 2025.md",
+    "Diary/2024-06-13.md",
+    "Diary/Aug 4th, 2024.md",
+    "Resources/People/Mohn.md",
+    "Resources/Books/index.md",
     "Untitled.md",
-    "Diary/index.md",
-    "Diary/Untitled.md",
     "Resources/Articles/index.md",
     "Diary/2024-06-14.md",
     "Diary/2024-06-15.md",
@@ -202,12 +207,6 @@
     "Diary/Friday, August 9th 2024.md",
     "index.md",
     "Diary/Friday, August 16th 2024.md",
-    "Diary/Friday, January 17th 2025.md",
-    "Diary/Friday, September 27th 2024.md",
-    "Diary/Monday, August 19th 2024.md",
-    "Diary/Saturday, August 17th 2024.md",
-    "Diary/Sunday, February 9th 2025.md",
-    "Diary/Sunday, January 5th 2025.md",
     "Areas/Travel/Transport",
     "Areas/Art/Installations",
     "Areas/Art/Performance",
