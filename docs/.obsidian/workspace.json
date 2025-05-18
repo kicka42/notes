@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/May 12th 2025, Paris.md",
+                "file": "Resources/Books/Dracula.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "May 12th 2025, Paris"
+              "title": "Dracula"
             }
           }
         ]
@@ -159,14 +159,25 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "ab168e35aece73ee",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Resources/Books/Dracula.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Dracula"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,10 +190,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b550f3645d3c972d",
+  "active": "ab168e35aece73ee",
   "lastOpenFiles": [
-    "Diary/index.md",
     "Diary/May 12th 2025, Paris.md",
+    "Resources/Books/Dracula.md",
+    "Diary/index.md",
     "Diary/May 13th 2025, Paris.md",
     "Diary/May 14th 2025, Paris.md",
     "Diary/May 15th 2025, Paris.md",
@@ -206,7 +218,6 @@
     "Diary/2024-06-18.md",
     "Diary/Friday, August 9th 2024.md",
     "index.md",
-    "Diary/Friday, August 16th 2024.md",
     "Areas/Travel/Transport",
     "Areas/Art/Installations",
     "Areas/Art/Performance",
