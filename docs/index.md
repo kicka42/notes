@@ -1,5 +1,8 @@
 <!-- ![Profile Avatar](https://kicka.org/avatar1.png) -->
 
+Last updated: May 18, 2025
+
+
 Here, I share all the stuff. This is my brain dumped onto a website - notes, thoughts, cool links. I originally made it to keep track of my things, but you might find something neat in here too. Everything's sorted in that sidebar on the left, with folders inside folders. The whole thing's constantly changing as I add new stuff and learn more.
 
 I share it mostly because I think it might help people to figure out stuff and find interensting places in the world, meet people whom i meet and live a good life.

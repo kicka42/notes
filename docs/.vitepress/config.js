@@ -1,87 +1,95 @@
-import { defineConfig } from 'vitepress'
-import fs from 'fs'
-import path from 'path'
-import { fileURLToPath } from 'url'
+import { defineConfig } from "vitepress";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 function generateSidebar(dir) {
-  const docsPath = path.resolve(__dirname, '..')
-  
-  function getItems(currentPath) {
-    const items = []
-    const files = fs.readdirSync(currentPath)
-    
-    files.sort((a, b) => {
-      const aIsDir = fs.statSync(path.join(currentPath, a)).isDirectory()
-      const bIsDir = fs.statSync(path.join(currentPath, b)).isDirectory()
-      if (aIsDir && !bIsDir) return -1
-      if (!aIsDir && bIsDir) return 1
-      return a.localeCompare(b)
-    })
+  const docsPath = path.resolve(__dirname, "..");
 
-    files.forEach(file => {
-      if (file.startsWith('.') || ['node_modules', 'public', '.vitepress'].includes(file)) {
-        return
+  function getItems(currentPath) {
+    const items = [];
+    const files = fs.readdirSync(currentPath);
+
+    files.sort((a, b) => {
+      const aIsDir = fs.statSync(path.join(currentPath, a)).isDirectory();
+      const bIsDir = fs.statSync(path.join(currentPath, b)).isDirectory();
+      if (aIsDir && !bIsDir) return -1;
+      if (!aIsDir && bIsDir) return 1;
+      return a.localeCompare(b);
+    });
+
+    files.forEach((file) => {
+      if (
+        file.startsWith(".") ||
+        ["node_modules", "public", ".vitepress"].includes(file)
+      ) {
+        return;
       }
 
-      const fullPath = path.join(currentPath, file)
-      const stat = fs.statSync(fullPath)
-      const relativePath = path.relative(docsPath, fullPath).replace(/\\/g, '/')
-      
+      const fullPath = path.join(currentPath, file);
+      const stat = fs.statSync(fullPath);
+      const relativePath = path
+        .relative(docsPath, fullPath)
+        .replace(/\\/g, "/");
+
       if (stat.isDirectory()) {
-        const hasIndex = fs.existsSync(path.join(fullPath, 'index.md'))
-        const children = getItems(fullPath)
-        
+        const hasIndex = fs.existsSync(path.join(fullPath, "index.md"));
+        const children = getItems(fullPath);
+
         if (hasIndex) {
           // Create a collapsible section that also acts as a link
           items.push({
             text: file,
-            link: `/${relativePath}/`,  // This makes the folder name link to index.md
+            link: `/${relativePath}/`, // This makes the folder name link to index.md
             collapsed: true,
-            items: children.filter(item => item.text !== 'index') // Exclude index.md from children
-          })
+            items: children.filter((item) => item.text !== "index"), // Exclude index.md from children
+          });
         } else if (children.length) {
           items.push({
             text: file,
             collapsed: true,
-            items: children
-          })
+            items: children,
+          });
         }
-      } else if (file.endsWith('.md') && file !== 'index.md') {
+      } else if (file.endsWith(".md") && file !== "index.md") {
         items.push({
-          text: file.replace('.md', ''),
-          link: `/${relativePath.replace('.md', '')}`
-        })
+          text: file.replace(".md", ""),
+          link: `/${relativePath.replace(".md", "")}`,
+        });
       }
-    })
-    
-    return items
+    });
+
+    return items;
   }
-  
-  return getItems(dir)
+
+  return getItems(dir);
 }
 
-const autoSidebar = generateSidebar(path.resolve(__dirname, '..'))
+const autoSidebar = generateSidebar(path.resolve(__dirname, ".."));
 
-let finalSidebar
+let finalSidebar;
 try {
   const manualSidebar = JSON.parse(
-    fs.readFileSync(path.resolve(__dirname, 'sidebar.json'), 'utf-8')
-  )
-  finalSidebar = autoSidebar
+    fs.readFileSync(path.resolve(__dirname, "sidebar.json"), "utf-8")
+  );
+  finalSidebar = autoSidebar;
 } catch (error) {
-  finalSidebar = autoSidebar
+  finalSidebar = autoSidebar;
 }
 
 export default defineConfig({
   title: "Notes",
   description: "Digital Garden",
-  base: '/notes/',
-  publicDir: '../public',
+  base: "/notes/",
+  publicDir: "../public",
   cleanUrls: true,
   themeConfig: {
-    sidebar: finalSidebar
-  }
-})
+    sidebar: finalSidebar,
+    search: {
+      provider: "local",
+    },
+  },
+});
