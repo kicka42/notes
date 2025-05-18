@@ -1,3 +1,7 @@
+---
+lastUpdated: true
+---
+
 <!-- ![Profile Avatar](https://kicka.org/avatar1.png) -->
 
 Here, I share all the stuff. This is my brain dumped onto a website - notes, thoughts, cool links. I originally made it to keep track of my things, but you might find something neat in here too. Everything's sorted in that sidebar on the left, with folders inside folders. The whole thing's constantly changing as I add new stuff and learn more.
