@@ -1,0 +1,9 @@
+/* For Reading Mode */
+.markdown-rendered .internal-link {
+  text-decoration: none !important;
+}
+
+/* For Live Preview/Edit Mode */
+.markdown-source-view.mod-cm6 .cm-underline {
+  text-decoration: none;
+}

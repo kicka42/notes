@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/Books/Dracula.md",
+                "file": "Diary/May 18th 2025, Paris.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dracula"
+              "title": "May 18th 2025, Paris"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5
+    "width": 242.5,
+    "collapsed": true
   },
   "right": {
     "id": "1f51e02571ab50e2",
@@ -166,10 +167,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Resources/Books/Dracula.md"
+                "file": "Diary/May 18th 2025, Paris.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Dracula"
+              "title": "File properties for May 18th 2025, Paris"
             }
           }
         ],
@@ -177,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,18 +194,22 @@
   },
   "active": "b550f3645d3c972d",
   "lastOpenFiles": [
+    "Resources/Art Collection/e1825020-3656327155.jpg",
+    "Resources/Art Collection",
+    "Resources/Paintings",
+    "index.md",
+    "Diary/May 18th 2025, Paris.md",
+    "Resources/Books/Dracula.md",
     "Garden/index.md",
     "Garden/Garden Index.md",
     "Resources/index.md",
     "Diary/May 12th 2025, Paris.md",
-    "Resources/Books/Dracula.md",
     "Diary/index.md",
     "Diary/May 13th 2025, Paris.md",
     "Diary/May 14th 2025, Paris.md",
     "Diary/May 15th 2025, Paris.md",
     "Diary/May 16th 2025, Paris.md",
     "Diary/May 17th 2025, Paris.md",
-    "Diary/May 18th 2025, Paris.md",
     "Diary/Wednesday, May 7th 2025.md",
     "Diary/Tuesday, April 29th 2025.md",
     "Diary/Sunday, May 11th 2025.md",
@@ -216,18 +222,14 @@
     "Resources/Articles/index.md",
     "Diary/2024-06-14.md",
     "Diary/2024-06-15.md",
-    "Diary/2024-06-16.md",
-    "Diary/2024-06-17.md",
     "Areas/Travel/Transport",
     "Areas/Art/Installations",
     "Areas/Art/Performance",
     "Core",
     "Resources/Games",
-    "Resources/Paintings",
     "Diary",
     "Resources/Theater",
     "Garden",
-    "Areas/Art",
     "Pasted image 20240805212959.png",
     "Untitled.canvas",
     "Diaries/Untitled.canvas"
