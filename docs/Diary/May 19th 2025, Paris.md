@@ -2,7 +2,6 @@
 tags:
   - France
 ---
-
 Smelly, 3 kg; Mohn, 71.9 kg; and me, 73 kg.
 "I don't want to be a girlfriend who's too drunk," said [[Mohn]].
 

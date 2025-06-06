@@ -1,5 +1,5 @@
 {
   "autorun": true,
   "folder": "Diary",
-  "format": "dddd, MMMM Do YYYY"
+  "format": "MMMM Do YYYY,"
 }
